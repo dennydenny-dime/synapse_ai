@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Persona, Gender, Mood } from '../types';
 import { PRESET_PERSONAS, MOODS, COMMON_LANGUAGES, getSystemApiKey } from '../constants';
-import { SynapseLogo } from '../App';
+import { SynapseLogo } from './SynapseLogo';
 
 interface LandingPageProps {
   onStart: (persona: Persona) => void;

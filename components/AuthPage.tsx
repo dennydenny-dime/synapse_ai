@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { User } from '../types';
-import { SynapseLogo } from '../App';
+import { SynapseLogo } from './SynapseLogo';
 
 interface AuthPageProps {
   onLogin: (user: User) => void;
